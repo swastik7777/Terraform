@@ -29,7 +29,7 @@ resource "aws_security_group" "allow_ssh" {
 
         tags = {
               Name = "ec2-allow-ssh"
-}
+                }
 
 
 }
